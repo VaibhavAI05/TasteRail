@@ -26,7 +26,7 @@ app.use(express.json());
 app.use(cookieParser());
 // app.use(isAuthenticated);
 const corsOptions = {
-    origin:"http://localhost:5173",
+    origin:"https://tasterail.onrender.com",
     credentials:true,
 }
 app.use(cors(corsOptions));
